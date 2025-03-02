@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>STUDENT REGISTRATION</title>
+  </head>
+  <body>
+    <div style="display: flex; align-items: center; gap: 380px;">
+      <img src="ict.png" alt="ICT DIVISION" height="80px" />
+      <img src="ict2.png" alt="Learning" height="50px" />
+      <img src="govt.jpg" alt="Goverment" height="80px" />
+    </div>
+    <hr />
+    <div
+      class="navbar"
+      style="height:30px; max-width ; background-color: rgb(235, 228, 236);">
+      <a href="#" style="margin-right: 70px">Home</a>
+      <a href="#" style="margin-right: 70px">Course Module - 2020</a>
+      <a href="#" style="margin-right: 70px">Class Shedule</a>
+      <a href="#" style="margin-right: 70px">Success Story</a>
+      <a href="#" style="margin-right: 70px">Attendence</a>
+      <a href="#" style="margin-right: 70px">FAQ</a>
+      <a href="#" style="margin-right: 70px">Login</a>
+    </div>
+    <p style="color: orange">Student Registration Form</p>
+    <hr />
+    <p><u>Please enter relevent Information:</u></p>
+    <h6>Mendatory Field*</h6>
+    <form action="">
+      <div>
+        <label for="District"
+          >District
+          <snap style="font-size: 10px"
+            >(Institute District:Where you want to do your Course)*</snap
+          ></label
+        ><br />
+        <select name="" id="">
+          <option value="" disabled selected>--Select One--</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Chittagong">Chittagong</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="Course">Course</label><br />
+        <select name="" id="">
+          <option value="" disabled selected>--Select One--</option>
+          <option value="MERN">MERN</option>
+          <option value="FIGMA">FIGMA</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="Student Name">Student name</label><br />
+        <input type="text" /><br /><br />
+        <label for="Father Name">Father Name</label><br />
+        <input type="text" /><br /><br />
+        <label for="Mother Name">Mother Name</label><br />
+        <input type="text" />
+      </div>
+    </form>
+    <br />
+    <table style="border: 2px solid black;">
+      <thead>
+        <label for="dob"> Date Of Birth*</label>
+      </thead>
+      <tr>
+        <td>
+          <div>
+            Day:
+            <select name="" id="">
+              <option value="">--Select Day--</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="31">31</option>
+            </select>
+          </div>
+          <div>
+            Month:
+            <select name="" id="">
+              <option value="">--Select Month--</option>
+              <option value="1">January</option>
+              <option value="2">February</option>
+              <option value="3">March</option>
+              <option value="12">December</option>
+            </select>
+          </div>
+          <div>
+            Year:
+            <select name="" id="">
+              <option value="">--Select Year--</option>
+              <option value="2023">2023</option>
+              <option value="2022">2022</option>
+              <option value="2021">2021</option>
+              <option value="1900">1900</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+    </table>
+    <br />
+    <form action="">
+      <label for="gen">Gender*</label>
+      <input type="radio" id="gen" name="one_gen" value="gen" />
+      <label for="male">Male</label>
+      <input type="radio" id="gen" name="one_gen" value="gen" />
+      <label for="Female">Female</label>
+      <br />
+    </form>
+    <form action="">
+      <br />
+      <label for="phy">Physically Handicaped*</label>
+      <input type="radio" id="gen" name="one_gen" value="gen" />
+      <label for="yes">Yes</label>
+      <input type="radio" id="gen" name="one_gen" value="gen" />
+      <label for="no">No</label>
+    </form>
+    <br />
+    <form action="">
+      <label for="email">Email*</label><br />
+      <input type="email" name="" id="email" />
+      <snap style="font-size: 10px">(e.g:example@mail.com)</snap>
+      <br />
+      <br />
+      <label for="number">Phone <snap>(Must be 11 Digits)*</snap></label
+      ><br />
+      <input type="email" name="" id="email" />
+      <snap style="font-size: 10px">(e.g:01642870866)</snap>
+    </form>
+    <br />
+
+    <form action="">
+      <label for="identification">Identification Type*</label><br />
+      <select name="" id="">
+        <option value="" disabled selected>--Select One--</option>
+        <option value="id">NID</option>
+        <option value="id">Birth Cirtificate</option>
+      </select>
+      <br />
+      <br />
+      <label for="number">Identification Number:</label><br />
+      <input type="number" name="" id="number" />
+      <p style="font-size: 10px">
+        Identification No. (Must be 10 digits for new NID or 17 digits for old
+        NID. If your National ID is 13 digits, then please add your birth year
+        with the ID as prefix. Example: 1980XXXXXXXXXXX)*
+      </p>
+    </form>
+    <form action="">
+      <div>
+        <label for="District"> Home District*</label><br />
+        <select name="" id="">
+          <option value="" disabled selected>--Select One--</option>
+          <option value="Dhaka">Dhaka</option>
+          <option value="Chittagong">Chittagong</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="Upazila">Upazila*</label><br />
+        <select name="" id="">
+          <option value="" disabled selected>--Select One--</option>
+          <option value="Dhaka">Monohorgonj</option>
+          <option value="Chittagong">Bipulasohor</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="Vil">Village/House No./Road no./other Alternative*</label
+        ><br />
+        <input type="" />
+      </div>
+      <br />
+      <div>
+        <label for="post">Post Office*</label><br />
+        <select name="" id="">
+          <option value="" disabled selected>--Select One--</option>
+          <option value="Dhaka">Monohorgonj</option>
+          <option value="Chittagong">Bipulasohor</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <label for="edu">Educational Qualification*<b>(Higher level)</b></label
+        ><br />
+        <select name="" id="">
+          <option value="" selected disabled>--Select One--</option>
+          <option value="">HSC</option>
+          <option value="">HONOURS</option>
+        </select>
+      </div>
+    </form>
+    <br />
+    <form action="">
+      <label for="com">Have any computer?*</label>
+      <input type="radio" id="com" name="one_com" value="text" />
+      <label for="yes">Yes</label>
+      <input type="radio" id="gen" name="one_com" value="text" />
+      <label for="no">No</label>
+    </form>
+    <br />
+    <form action="">
+      <label for="file">Photograph*</label><br />
+      <input type="file" />
+      <p style="font-size: 10px">
+        (File type must be jpg or jpeg or png.maximum file size 2Mb)
+      </p>
+      <br />
+      <label for="file">Signiture*</label><br />
+      <input type="file" />
+      <p style="font-size: 10px">
+        (File type must be jpg or jpeg or png.maximum file size 2Mb)
+      </p>
+    </form>
+    <button style="color: aqua;">Submit Data</button>
+  </body>
+</html>
